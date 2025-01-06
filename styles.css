@@ -1,0 +1,51 @@
+.background {
+  background-color: lightblue;
+
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  width: 48rem;
+  height: 60rem;
+  background-image: url("./FullMoon2010.jpg");
+  background-repeat: repeat;
+  overflow-y: scroll;
+}
+
+.modal {
+  position: fixed;
+  top: 4rem;
+  left: 50%;
+  width: 18rem;
+  height: 18rem;
+  transform: translate(-50%, 0);
+  overflow-y: scroll;
+
+  background-color: rgba(255, 255, 255);
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: rgba(0, 255, 255);
+  border-style: solid;
+}
+
+.popover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18rem;
+  transform: translate(-50%, -50%);
+}
+
+.blurry {
+  width: 10rem;
+  height: 10rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 0, 0, 0.2);
+}
