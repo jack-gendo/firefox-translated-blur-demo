@@ -47,5 +47,6 @@
   transform: translate(-50%, -50%);
   position: absolute;
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   background-color: rgba(255, 0, 0, 0.2);
 }
